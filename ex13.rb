@@ -1,10 +1,11 @@
 first, second, third = ARGV
-print "What is your first variable?"
+print "What is your first name? "
 first = $stdin.gets.chomp
-print "What is your second variable?"
-second = $stdin.gets.chomps
-print "What is your third variable?"
+print "What is your middle name? "
+second = $stdin.gets.chomp
+print "What is your last name? "
 third = $stdin.gets.chomp
-puts "Your first variable is #{first}"
-puts "Your second variable is #{second}"
-puts "Your third variable is #{third}"
+puts "To confirm the following: "
+puts "Your first name is #{first}"
+puts "Your middle name is #{second}"
+puts "Your last name is #{third}"
